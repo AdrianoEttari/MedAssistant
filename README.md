@@ -7,4 +7,4 @@ You can download Ollama and its models from https://ollama.com.
 The chatbot runs locally and looks like this:
 
 <img src="assets/chat_front.png" height="500px"/>
-The chatbot combines the knowledge of the Mistral model with information retrieved from the **medquad_QA.txt** document. The RAG pipeline is straightforward: it includes a query translation step to ensure that poorly phrased user questions still match relevant entries in the FAISS database, where the embedded document is stored.
+The chatbot combines the knowledge of the Mistral model with information retrieved from the `medquad_QA.txt` document. The RAG pipeline is straightforward: it includes a query translation step to ensure that poorly phrased user questions still match relevant entries in the FAISS database, where the embedded document is stored.
