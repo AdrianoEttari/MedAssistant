@@ -192,3 +192,9 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# files
+data_maker*
+fake_context*
+TO_REMOVE*
+medquad.csv
